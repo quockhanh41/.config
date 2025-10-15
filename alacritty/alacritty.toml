@@ -59,3 +59,14 @@ white   = "0xf5f5f5"
 key = "Return"
 mods = "Command"
 action = "ToggleFullscreen"
+
+# Tmux integration
+[[keyboard.bindings]]
+key = "N"
+mods = "Command"
+command = { program = "tmux", args = ["new-window"] }
+
+[[keyboard.bindings]]
+key = "T"
+mods = "Command"
+command = { program = "tmux", args = ["new-session"] }

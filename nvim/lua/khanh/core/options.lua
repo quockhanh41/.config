@@ -42,3 +42,8 @@ opt.splitbelow = true -- split horizontal window to the bottom
 
 -- turn off swapfile
 opt.swapfile = false
+
+-- tmux integration
+if vim.env.TMUX then
+  vim.opt.timeoutlen = 50
+end
