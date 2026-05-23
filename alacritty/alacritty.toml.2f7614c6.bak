@@ -70,8 +70,3 @@ command = { program = "tmux", args = ["new-window"] }
 key = "T"
 mods = "Command"
 command = { program = "tmux", args = ["new-session"] }
-
-[[keyboard.bindings]]
-key = "Return"
-mods = "Shift"
-chars = "\u001B\r"
