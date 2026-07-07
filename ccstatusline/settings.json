@@ -26,6 +26,34 @@
         "type": "separator"
       },
       {
+        "id": "b2c1e5a0-1f2d-4c3b-9e8a-7d6f5e4c3b2a",
+        "type": "session-usage",
+        "color": "green",
+        "rawValue": true,
+        "metadata": {
+          "inverse": "false",
+          "display": "slider"
+        }
+      },
+      {
+        "id": "c3d2f6b1-2e3f-4d4c-8f9b-8e7f6f5d4c3b",
+        "type": "separator"
+      },
+      {
+        "id": "d4e3a7c2-3f4a-4e5d-af0c-9f8e7f6e5d4c",
+        "type": "weekly-usage",
+        "color": "yellow",
+        "rawValue": true,
+        "metadata": {
+          "inverse": "false",
+          "display": "slider"
+        }
+      },
+      {
+        "id": "e5f4b8d3-4a5b-4f6e-b01d-a0f9e8f7e6d5",
+        "type": "separator"
+      },
+      {
         "id": "aa6c64c1-d7be-480b-bddf-c58dda24ebd3",
         "type": "current-working-dir",
         "rawValue": true,
@@ -51,6 +79,17 @@
         "id": "7",
         "type": "git-changes",
         "color": "yellow"
+      },
+      {
+        "id": "8",
+        "type": "separator"
+      },
+      {
+        "id": "9",
+        "type": "custom-command",
+        "color": "blue",
+        "commandPath": "/Users/quockhanh/.config/ccstatusline/sysinfo.sh",
+        "timeout": 2500
       }
     ],
     [],
