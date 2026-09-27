@@ -79,17 +79,6 @@
         "id": "7",
         "type": "git-changes",
         "color": "yellow"
-      },
-      {
-        "id": "8",
-        "type": "separator"
-      },
-      {
-        "id": "9",
-        "type": "custom-command",
-        "color": "blue",
-        "commandPath": "/Users/quockhanh/.config/ccstatusline/sysinfo.sh",
-        "timeout": 2500
       }
     ],
     [],
